@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список новостей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .news-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: calc(30.333% - 10px);
+            box-sizing: border-box;
+        }
+        .news-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .news-title {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .news-meta {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Список новостей</h1>
+<div class="container">
+    <div class="news-card">
+        <img src="https://via.placeholder.com/300" alt="Новость 1">
+        <h2 class="news-title">Заголовок новости 1</h2>
+        <p class="news-meta">Дата: 2024-10-01 | Автор: Иван Иванов | Категория: Политика</p>
+    </div>
+    <div class="news-card">
+        <img src="https://via.placeholder.com/300" alt="Новость 2">
+        <h2 class="news-title">Заголовок новости 2</h2>
+        <p class="news-meta">Дата: 2024-10-02 | Автор: Анна Петрова | Категория: Экономика</p>
+    </div>
+    <div class="news-card">
+        <img src="https://via.placeholder.com/300" alt="Новость 3">
+        <h2 class="news-title">Заголовок новости 3</h2>
+        <p class="news-meta">Дата: 2024-10-03 | Автор: Сергей Сергеев | Категория: Спорт</p>
+    </div>
+    <div class="news-card">
+        <img src="https://via.placeholder.com/300" alt="Новость 4">
+        <h2 class="news-title">Заголовок новости 4</h2>
+        <p class="news-meta">Дата: 2024-10-04 | Автор: Мария Смирнова | Категория: Наука</p>
+    </div>
+    <div class="news-card">
+        <img src="https://via.placeholder.com/300" alt="Новость 5">
+        <h2 class="news-title">Заголовок новости 5</h2>
+        <p class="news-meta">Дата: 2024-10-05 | Автор: Алексей Кузнецов | Категория: Технологии</p>
+    </div>
+    <div class="news-card">
+        <img src="https://via.placeholder.com/300" alt="Новость 6">
+        <h2 class="news-title">Заголовок новости 6</h2>
+        <p class="news-meta">Дата: 2024-10-06 | Автор: Ольга Иванова | Категория: Культура</p>
+    </div>
+</div>
+
+</body>
+</html>
